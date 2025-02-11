@@ -4,3 +4,7 @@
 
 ## Ingesting NY taxi data to postgres database
 Utilized pandas to ingest chunks of 10000 rows of the data set into postgres db
+
+### Dockerzing the ingestion script
+Convert the jupyter notebook file into a python scripts
+`jupyter nbconvert --to=script ingestion.ipynb`
