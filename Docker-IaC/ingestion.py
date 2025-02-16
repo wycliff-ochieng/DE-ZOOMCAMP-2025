@@ -3,8 +3,16 @@ import pandas as pd
 from sqlalchemy import create_engine
 import psycopg2
 import argparse
+import os
 
 def main(params):
+    user = params.user
+    password = params.password
+    host = params.host
+    port = params.port
+    database = params.database
+    table = params.table_name
+
     df = pd.read_csv(r"\Users\Admin\Desktop\2025-ZOOM\Docker-IaC\yellow_tripdata_2024-01.csv")
     df.head(10)
 
@@ -45,5 +53,16 @@ def main(params):
     df.head(n=0)
 
 if "__name__" == "__main___":
-    params.
+    parser = argparse.ArgumentParser(description='What the program does')
+    parser.add_argument('user',help='username')  
+    parser.add_argument('port', help='portnumber') 
+    parser.add_argument('host',help='host')    
+    parser.add_argument('password', help='password')
+    parser.add_argument('database',help='database name')
+    parser.add_argument('table_name',help='table')
+
+    args = parser.parse_args()
+
+    main(args)
+
 
