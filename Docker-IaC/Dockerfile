@@ -1,6 +1,6 @@
 FROM python:3.12
 
-RUN pip install pandas psycopg2 schlachemy
+RUN pip install pandas psycopg2 sqlalchemy
 
 WORKDIR /app
 
