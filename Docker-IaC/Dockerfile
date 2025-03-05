@@ -1,9 +1,9 @@
 FROM python:3.12
 
-RUN pip install pandas
+RUN pip install pandas psycopg2 schlachemy
 
 WORKDIR /app
 
-COPY pipeline.py pipeline.py
+COPY ingestion.py ingestion.py
 
-ENTRYPOINT ["python","pipeline.py"]
+ENTRYPOINT ["python","ingestion.py"]
