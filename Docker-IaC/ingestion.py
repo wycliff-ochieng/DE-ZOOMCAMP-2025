@@ -49,7 +49,7 @@ def create_ingest_tables():
 
     info = """SELECT * FROM "yellow_taxi" LIMIT 50 """
     info2 = pd.read_sql(info,conn)
-    info2
+    print(info2)
 
     conn.rollback()
 
