@@ -1,0 +1,42 @@
+[0m15:52:00.427705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924B36FF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924BF98FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924C1E9490>]}
+
+
+============================== 15:52:00.444321 | 97c1dd2a-2030-466d-9195-37a2f3b33b14 ==============================
+[0m15:52:00.444321 [info ] [MainThread]: Running with dbt=1.9.3
+[0m15:52:00.444321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:52:20.142779 [debug] [MainThread]: Starter project path: C:\Users\Admin\Desktop\2025-ZOOM\dezoom\Lib\site-packages\dbt\include\starter_project
+[0m15:52:20.193871 [info ] [MainThread]: 
+Your new dbt project "yellow_taxi_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:52:20.193871 [info ] [MainThread]: Setting up your profile.
+[0m15:52:20.208101 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m15:52:20.215102 [debug] [MainThread]: Command `dbt init` failed at 15:52:20.214103 after 20.20 seconds
+[0m15:52:20.216101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924B36FF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924C2A8DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001924C463140>]}
+[0m15:52:20.222938 [debug] [MainThread]: Flushing usage events
+[0m15:52:21.358289 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:53:48.831421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C651713BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C64E84EBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C651711A30>]}
+
+
+============================== 15:53:48.854203 | 0126c8a6-9af2-4097-9337-40d3322438f1 ==============================
+[0m15:53:48.854203 [info ] [MainThread]: Running with dbt=1.9.3
+[0m15:53:48.857207 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:54:01.228785 [info ] [MainThread]: A project called yellow_taxi_analytics already exists here.
+[0m15:54:01.231807 [debug] [MainThread]: Command `dbt init` succeeded at 15:54:01.231807 after 12.64 seconds
+[0m15:54:01.232806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C651E5DB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C64E84EBA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6523EAEA0>]}
+[0m15:54:01.234811 [debug] [MainThread]: Flushing usage events
+[0m15:54:02.345991 [debug] [MainThread]: An error was encountered while trying to flush usage events
