@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: 
+  - database: postgres
+  - schema: public
+
+tables:
+ - name: yellow_taxi
+
+ - name: 
